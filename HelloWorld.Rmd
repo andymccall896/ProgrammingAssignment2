@@ -1,1 +1,10 @@
 ## This is a Markdown file
+
+cube <- function(x, n) {
+        x^3
+}
+
+
+myplot <- function(x, y, type = "l", ...) {
+plot(x, y, type = type, ...) ## Pass '...' to 'plot' function
+}
